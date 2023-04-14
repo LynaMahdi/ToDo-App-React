@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abhaya+Libre:wght@500&family=Bai+Jamjuree:ital,wght@1,500&family=Josefin+Sans:ital,wght@1,700&family=Montserrat:wght@700&family=Oswald:wght@300;600&family=Poppins:wght@600&display=swap');
+@media screen and (min-width: 800px) {
+    body{
+        background-color: hsl(235, 21%, 11%);
+    }
+}
+img{
+    position: absolute;
+    height: 300px;
+    width: 1479px;
+}
+
+
+h{
+    position: absolute;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    top: 86px;
+    left: 495px;
+
+}
+
+ul{
+    position: absolute;
+    color: white;
+    top: 500px;
+}
+
+
+li{
+    color: white;
+    top: 500px;
+}
+
+.sun{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 90px;
+    left: 990px;
+}
+
+.container{
+    position:relative;
+    width: 525px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: hsl(237, 14%, 26%);
+
+}
+
+
+
+
+.add{
+    position: absolute;
+    left: 495px;
+    top: 35%;
+    color: hsl(234, 39%, 85%);
+    cursor: pointer;
+}
+input{
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    left: 35px;
+    top: 8px;
+    border-radius: 4px;
+    border-color: transparent;
+    color:hsl(234, 39%, 85%);
+    background-color: hsl(237, 14%, 26%);
+}
+
+
+.circleBase {
+    border-radius: 50%;
+  }
+  
+.circle1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 8px;
+    top: 30%;
+    border-image: linear-gradient(to right, hsl(237, 14%, 37%) , hsl(280, 87%, 37%));
+    border: 1px solid hsl(234, 39%, 85%);
+    cursor: pointer;
+  }
+
+
+p{  position: relative;
+    color: white;
+    font-size: 15px;
+    left: 49px;
+    top: 30%;
+    
+  }
+
+
+h1{
+    position: absolute;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 35%;
+    color:hsl(234, 39%, 85%);
+    cursor: pointer;
+}
+
+
+
+.chichi{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 25%;
+    left: 25%;
+}
+
+
+.chich{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 25%;
+    left: 490px;
+    cursor: pointer;
+}
