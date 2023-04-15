@@ -10,6 +10,14 @@ img{
     width: 1479px;
 }
 
+.wrapper{
+    display: grid;
+   
+}
+
+.box{
+
+}
 
 h{
     position: absolute;
@@ -51,6 +59,15 @@ li{
 
 }
 
+.container1{
+    position:relative;
+    width: 525px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
 
 
 
@@ -77,6 +94,18 @@ input{
 .circleBase {
     border-radius: 50%;
   }
+
+  
+.circleB {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+    background-image: linear-gradient(to right, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+    
+    border: 1px solid hsl(234, 39%, 85%);
+    cursor: pointer;
+  }
   
 .circle1 {
     position: absolute;
@@ -84,20 +113,24 @@ input{
     height: 20px;
     left: 8px;
     top: 30%;
-    border-image: linear-gradient(to right, hsl(237, 14%, 37%) , hsl(280, 87%, 37%));
     border: 1px solid hsl(234, 39%, 85%);
     cursor: pointer;
-  }
+}
 
 
-p{  position: relative;
+.p1{  position: relative;
     color: white;
     font-size: 15px;
     left: 49px;
     top: 30%;
     
   }
-
+.p2{  position: relative;
+    color: black;
+    font-size: 15px;
+    left: 49px;
+    top: 30%;
+  }
 
 h1{
     position: absolute;
@@ -109,7 +142,20 @@ h1{
 }
 
 
+.h12{
+    position: absolute;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 35%;
+    color:hsl(236, 9%, 61%);
+    cursor: pointer;
+}
 
+
+
+h1:active{
+    color: rgb(82, 170, 230);
+}
 .chichi{
     position: absolute;
     width: 10px;
@@ -121,8 +167,8 @@ h1{
 
 .chich{
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     top: 25%;
     left: 490px;
     cursor: pointer;
